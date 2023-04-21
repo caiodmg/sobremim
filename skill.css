@@ -1,0 +1,21 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+.aboutme__skills{
+    display: flex;
+}
+
+.skills__tittle__container{
+    width: 150px;
+}
+
+.aboutme__skills__tittle{
+    rotate: 270deg;
+    font-size: 48px;
+}
+
+.aboutme__skills__list{
+    list-style-type: none;
+    flex: 1;
+    font-size: 19px;
+}
+
