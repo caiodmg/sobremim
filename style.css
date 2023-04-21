@@ -10,35 +10,40 @@ body {
      box-sizing: border-box;
      background-color: white;
      color:#212121;
+     font-family: 'SF Pro Display', sans-serif;
 }
 
-.aboutme__content_highlighted {
-    color: #2196f3;
-}
-
-.aboutme {
+main {
     margin: 10%;
-    display: flex;
+    display: block;
     align-items: center;
-    justify-content: space-between;
 }
 
 .imagem{
     max-width: 400px;
 }
 
-.aboutme__content {
+.aboutme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aboutme__content{
     width: 615px;
     display: flex;
     flex-direction: column;
     gap: 15px;
-
 }
 
 .aboutme__content__tittle{
     font-size: 24px;
     font-family: 'SF Pro Display', sans-serif;
     text-indent: 15px;
+}
+
+.aboutme__content_highlighted {
+    color: #2196f3;
 }
 
 .aboutme__content__subtittle{
@@ -65,7 +70,7 @@ body {
     font-size: 24px;
     font-weight: 600;
     padding: 10px;
-    font-family: 'SF Pro Display', sans-serif;
     text-decoration: none;
 }
+
 
