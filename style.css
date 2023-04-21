@@ -12,11 +12,11 @@ body {
      color:#212121;
 }
 
-.titulo-destaque {
+.aboutme__content_highlighted {
     color: #2196f3;
 }
 
-.apresentacao {
+.aboutme {
     margin: 10%;
     display: flex;
     align-items: center;
@@ -27,7 +27,7 @@ body {
     max-width: 400px;
 }
 
-.apresentacao__conteudo {
+.aboutme__content {
     width: 615px;
     display: flex;
     flex-direction: column;
@@ -35,20 +35,20 @@ body {
 
 }
 
-.apresentacao__conteudo__titulo{
+.aboutme__content__tittle{
     font-size: 24px;
     font-family: 'SF Pro Display', sans-serif;
     text-indent: 15px;
 }
 
-.apresentacao__conteudo__subtitulo{
+.aboutme__content__subtittle{
     font-size: 19px;
     font-family: 'SF Pro Display', sans-serif;
     text-indent: 15px;
     text-align: justify;
 }
 
-.apresentacao__links__lista{
+.aboutme__links__list{
     display: flex;
     list-style-type: none;
     padding-right: 1px;
@@ -57,7 +57,7 @@ body {
     margin-top: 40px;
 }
 
-.apresentacao__links__link {
+.aboutme__links__link{
     color:  #2196f3;
     width: 300px;
     text-align: center;
