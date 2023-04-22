@@ -2,20 +2,25 @@
 
 .aboutme__skills{
     display: flex;
-}
-
-.skills__tittle__container{
-    width: 150px;
+    flex-direction: column;
+    width: 615px;
+    gap: 15px;
+    margin-top: 24px;
 }
 
 .aboutme__skills__tittle{
-    rotate: 270deg;
     font-size: 48px;
+    color: var(--highlightedtext);
 }
 
 .aboutme__skills__list{
     list-style-type: none;
-    flex: 1;
     font-size: 19px;
+}
+
+.aboutme__skills__types{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
 
